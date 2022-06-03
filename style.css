@@ -326,6 +326,44 @@ ul{
     margin-top: 0px;
 }
 
+/* ------------------ALL PRODUCTS */
+.row2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    margin: 0 auto 80px;
+}
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ff523b;
+}
+
+.page-btn span:hover{
+    background-color: #ffd6d6;
+    border: 1px solid #000;
+}
+
+
+
 @media only screen and (max-width: 800px){
     nav ul{
         position: absolute;
